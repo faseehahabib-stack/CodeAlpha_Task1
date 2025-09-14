@@ -23,7 +23,8 @@ A simple **Age Calculator App** that allows users to input their date of birth a
 
 
 ## 🔗 Live Demo
-[Click here to view Age Calculator](https://faseehahabib-stack.github.io/CodeAlpha-Task1/)
+[Click here to view Age Calculator][Live Demo](https://username.github.io/CodeAlpha-Tasks/Task1_AgeCalculator/index.html)
+
 
 ---
 
