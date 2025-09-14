@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 350px;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  .input-section {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  button {
+    margin-left: 10px;
+    padding: 10px 14px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button:hover { background: #218838; }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  .actions button {
+    background: #007bff;
+    padding: 5px 8px;
+    margin-left: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .actions button.delete { background: #dc3545; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>✅ To-Do List</h2>
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter new task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- Linking JS file correctly -->
+  <script src="script1.js"></script>
+</body>
+</html>
